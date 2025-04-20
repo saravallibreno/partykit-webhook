@@ -1,0 +1,13 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "plugins": [
+      {
+        "name": "@astrojs/ts-plugin",
+      },
+    ],
+  },
+  "exclude": ["node_modules", "dist"],
+}

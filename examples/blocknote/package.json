@@ -1,0 +1,22 @@
+{
+  "name": "@partykit/examples-blocknote",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "partykit dev",
+    "deploy": "partykit deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@blocknote/mantine": "^0.14.1",
+    "@blocknote/react": "^0.14.1",
+    "@types/react": "^18.2.72",
+    "@types/react-dom": "^18.2.22",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
